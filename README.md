@@ -179,10 +179,10 @@ Can be found after cloning this repository
 ### Image Viewing on the Command Line
 * Run the command `feh /path/to/my/image.jpg`
 * Can also use wildcards to view multiple images
- * `feh pic*`
- * Would match `pic`, `picture`, `pic_001`, etc.
- * Use left/right arrow keys to navigate
- * Images are generally loaded in alphabetical order
+  * `feh pic*`
+    * Would match `pic`, `picture`, `pic_001`, etc.
+  * Use left/right arrow keys to navigate
+  * Images are generally loaded in alphabetical order
 
 ### Troubleshooting
 * Under normal circumstances, with a stable network, the iCan should immediately start running once plugged in
