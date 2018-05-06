@@ -186,13 +186,13 @@ Can be found after cloning this repository
 
 ### Troubleshooting
 * Under normal circumstances, with a stable network, the iCan should immediately start running once plugged in
- * You can tell the program is running if the red camera light is on and the "Open Indicator" LED responds to movement
+  * You can tell the program is running if the red camera light is on and the "Open Indicator" LED responds to movement
 * If the program is not running _but_ you know the IP address
- * SSH into the Raspberry Pi
- * Clear the `/tmp` directory of all text files
- * Run the main iCan program `python /home/pi/Documents/ican-project/src/ican.py`
+  * SSH into the Raspberry Pi
+  * Clear the `/tmp` directory of all text files
+  * Run the main iCan program `python /home/pi/Documents/ican-project/src/ican.py`
 * If the program is not running _and_ you don't know the IP address
- * Connect the portable monitor via HDMI
- * Open a terminal and run the same commands above
- * Alternatively you can get the IP address of the `wlan0` interface (use the command `ifconfig`)
-  * Once you have the IP address you can SSH with the credentials above
+  * Connect the portable monitor via HDMI
+  * Open a terminal and run the same commands above
+  * Alternatively you can get the IP address of the `wlan0` interface (use the command `ifconfig`)
+    * Once you have the IP address you can SSH with the credentials above
